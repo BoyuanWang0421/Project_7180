@@ -112,8 +112,8 @@ my $size_sum = 0;
 my $line_sum =0;
 
 my $input = "Output.txt";
-open Caculate, $input;
-while (<Caculate>){
+open AL, $input;
+while (<AL>){
 	chomp;
 	if (/^chr/){next;}
 	my @all = split /\s+/,$_;
